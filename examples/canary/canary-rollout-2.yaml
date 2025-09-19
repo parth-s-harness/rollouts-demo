@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: canary-demo
+  name: canary-demo-2
 spec:
   replicas: 5
   revisionHistoryLimit: 1
