@@ -1,7 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: canary-demo-2
+  name: canary-demo
+  namespace: twosourcehelm
 spec:
   replicas: 5
   revisionHistoryLimit: 1
