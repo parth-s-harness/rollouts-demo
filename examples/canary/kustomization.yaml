@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
 - ../base
 - canary-rollout.yaml
+- canary-rollout-2.yaml
